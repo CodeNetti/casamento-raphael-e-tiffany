@@ -574,9 +574,7 @@
       <p class="pix-text">Se desejar nos presentear, ficaremos muito felizes em receber um pix rsrs 💖</p>
       <p class="pix-key">📲 Chave: <strong>11983787869</strong></p>
       <div class="gift-qr" style="margin-top:20px;">
-        <img src="Pictures/qrcode.jpg" alt="QR Code PIX"
-             class="groom_qr lazyload"
-             style="max-width:450px; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.15);">
+       <img src="Pictures/qrcode.jpg" alt="QR Code PIX" class="groom_qr lazyload">
       </div>
     </div>
   </div>
@@ -1251,7 +1249,33 @@
   font-weight: bold;
   color: #f68f8e;
 }
+.groom_qr {
+  width: 200%;             /* ocupa toda a largura disponível */
+  max-width: 450px;        /* não passa de 450px */
+  height: auto;            /* mantém proporção */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;          /* centraliza dentro do card */
+}
 
+
+@media (max-width: 414px ) {
+  .groom_qr { max-width: 220px; }
+}
+@media (min-width: 415px) {
+  .groom_qr { max-width: 300px; }
+}
+@media (min-width: 441px) {
+  .groom_qr { max-width: 350px; }
+}
+
+@media (min-width: 481px) {
+  .groom_qr { max-width: 400px; }
+}
+@media (min-width: 527px) {
+  .groom_qr { max-width: 440px; }
+}
 </style>
 <!-- 
 <section id="galeria">
