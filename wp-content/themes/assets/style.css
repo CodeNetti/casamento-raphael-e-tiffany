@@ -553,13 +553,16 @@ main {
     text-align: center;
     margin-bottom: 4px;
 }
+#principal{
+    font-size: 20px;
+}
 
 .section-title {
     font-size: var(--title-fs);
     font-weight: bold;
     font-family: var(--title-font);
     text-align: center;
-    color: var(--primary-color);
+    color: #f68f8e;
 }
 
 .img_bg {
