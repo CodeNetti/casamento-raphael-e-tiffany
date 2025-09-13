@@ -559,13 +559,13 @@
       </p>
     </div>
     <br> 
-    <br>
+   
 
   
     <div class="galeria-container" style="margin-bottom:40px; text-align:center;">
-      <img src="Pictures/casal.jpg" alt="Foto do casal"
-           class="lazyload"
-           style="max-width:550px; border-radius:12px; box-shadow:0 0 20px rgba(0,0,0,0.1);">
+      <img src="Pictures/casal.jpg" alt="Foto do casal" id="fotocasal"
+           class="lazyload">
+           
     </div>
 
     
@@ -1229,6 +1229,17 @@
     .galeria-list img:hover {
         transform: scale(1.05);
     }
+#fotocasal{
+    max-width:90%;
+
+ border-radius:12px;
+  box-shadow:0 0 20px rgba(0,0,0,0.1);
+
+}
+@media (min-width: 1100px ) {
+  #fotocasal { max-width:80%; }
+}
+
 .pix-card {
   background: #f9f9f9;
   border-radius: 20px;
