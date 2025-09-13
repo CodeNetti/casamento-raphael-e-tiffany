@@ -578,6 +578,7 @@ main {
     font-family: var(--title-font);
     text-align: center;
     color: #f68f8e;
+    font-size: 35px;
 }
 
 .img_bg {
