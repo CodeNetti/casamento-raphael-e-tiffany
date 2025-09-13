@@ -301,8 +301,8 @@ body {
     font-size: 28px;
 }
 .btn-primary {
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+       background-color: #f6aead;
+    border: 1px solid white;
     color: var(--text-white);
     display: inline-flex;
     justify-content: center;
@@ -945,7 +945,7 @@ main {
 }
 
 .timeline-media {
-    background-color: var(--primary-color);
+    
     padding: 8px;
     border-radius: 12px;
 }
