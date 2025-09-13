@@ -567,17 +567,27 @@
     </div>
 -->
     
-    <div id="gift" class="pix-card" data-aos="fade-up" data-aos-duration="2000">
-      <img src="Pictures/gift.gif" alt="Ícone de presente" class="pix-icon" 
-       style="width:50px; height:50px;"> 
-      <h3 class="pix-title"></h3>
-      <p class="pix-text">Se desejar nos presentear, ficaremos muito felizes em receber um pix rsrs 💖</p>
-      <p class="pix-key">📲 Chave: <strong>11983787869</strong></p>
-      <div class="gift-qr" style="margin-top:20px;">
-       <img src="Pictures/qrcode.jpg" alt="QR Code PIX" class="groom_qr lazyload">
-      </div>
-    </div>
+  <div id="gift" class="pix-card" data-aos="fade-up" data-aos-duration="2000">
+  <!-- GIF no topo -->
+  <img src="Pictures/gift.gif" alt="Ícone de presente" class="pix-icon" 
+       style="width:50px; height:50px; display:block; margin:0 auto 20px;">
+
+  <h3 class="pix-title"></h3>
+  <p class="pix-text">Se desejar nos presentear, ficaremos muito felizes em receber um pix rsrs 💖</p>
+
+  <div class="gift-qr" style="margin-top:20px;">
+    <img src="Pictures/qrcode.jpg" alt="QR Code PIX" class="groom_qr lazyload"> 
   </div>
+
+  <br>
+
+  <!-- Botão animado embaixo -->
+  <div style="text-align:center; margin-top:20px; color:white;">
+    <a href="https://nubank.com.br/cobrar/1ixpef/68c3d9d4-404d-4e12-8b84-cba5848c81ee" target="_blank" class="pix-button">
+      🎁 Clique no presente
+    </a>
+  </div>
+</div>
 </section>
 
 
@@ -941,7 +951,7 @@
                         </span>
 
                         <p class="timeline-des uk-margin-remove">
-                            Nos conhecemos através de amigos
+                           
                         </p>
                     </div>
                 </div>
@@ -958,11 +968,11 @@
                         </span>
 
                         <span class="title">
-                            Começamos a namorar
+                            Início do namoro
                         </span>
 
                         <p class="timeline-des uk-margin-remove">
-                            Lembranças especiais
+                           
                         </p>
                     </div>
                 </div>
@@ -1000,18 +1010,18 @@
                         </span>
 
                         <span class="title">
-                              O amor foi crescendo cada dia maismmm
+                            Pedido de Noivado
                         </span>
 
                         <p class="timeline-des uk-margin-remove">
-                               Pedido de Noivado
+                           
                         </p>
                     </div>
                 </div>
 
                 <div class="timeline-item" data-aos="fade-up" data-aos-duration="1000">
                     <div class="timeline-media">
-                       <img data-src="Pictures/escolha.jpg"  alt=""
+                       <img data-src="Pictures/zen.jpg"  alt=""
                             class="timline-img lazyload">
                     </div>
 
@@ -1021,11 +1031,11 @@
                         </span>
 
                         <span class="title">
-                            Firmamento
+                            Adotamos o Zen❤️
                         </span>
 
                         <p class="timeline-des uk-margin-remove">
-                            A ESCOLHER
+                            
                         </p>
                     </div>
                 </div>
@@ -1258,7 +1268,15 @@
   display: block;
   margin: 0 auto;          /* centraliza dentro do card */
 }
-
+.groom_qr {
+  width: 200%;             /* ocupa toda a largura disponível */
+  max-width: 450px;        /* não passa de 450px */
+  height: auto;            /* mantém proporção */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;          /* centraliza dentro do card */
+}
 
 @media (max-width: 414px ) {
   .groom_qr { max-width: 220px; }
@@ -1276,6 +1294,35 @@
 @media (min-width: 527px) {
   .groom_qr { max-width: 440px; }
 }
+
+
+.pix-button {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  
+.pix-button a {
+ 
+    color: white;
+    font-weight: bold;
+    
+    font-size: 16px;
+  }
+
+  .pix-button:hover {
+    background-color: #e73370;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
 </style>
 <!-- 
 <section id="galeria">
